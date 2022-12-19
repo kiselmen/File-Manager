@@ -12,6 +12,10 @@ import rn from './rn.js';
 import cp from './cp.js';
 import rm from './rm.js';
 import mv from './mv.js';
+import osInfo from './os.js';
+import myHash from './hash.js';
+import compress from './compress.js';
+import decompress from './decompress.js';
 
 const start = async () => {
     const myConsole = readline.createInterface({
@@ -52,6 +56,18 @@ const start = async () => {
                 break;
             case 'mv':
                 mv(args);
+                break;
+            case 'os':
+                osInfo(args);
+                break;
+            case 'hash':
+                myHash(args);
+                break;
+            case 'compress':
+                compress(args);
+                break;
+            case 'decompress':
+                decompress(args);
                 break;
             case '.exit':
                 exit();
