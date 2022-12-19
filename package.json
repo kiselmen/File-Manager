@@ -1,0 +1,24 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "File Manager using Node.js APIs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:n": "node src/index.js --username=kiselmen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiselmen/File-Manager.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "kiselmen",
+  "license":  "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kiselmen/File-Manager/issues"
+  },
+  "homepage": "https://github.com/kiselmen/File-Manager#readme"
+}
